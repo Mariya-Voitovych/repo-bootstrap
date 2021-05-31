@@ -17,6 +17,32 @@ function bluetext(){
 }
 });
 </script>
+<script>
+  $("document").ready(function(){
+  $("#but4_1").on("click",function(){
+    $("#ul4_1").show();
+    $("#text4_2").hide();
+    $("#ul4_3").hide();
+  })
+  }
+  );
+
+  $("document").ready(function(){
+    $("#but4_2").on("click", function(){
+      $("#text4_2").show();
+      $("#ul4_1").hide();
+    $("#ul4_3").hide();
+    })
+  });
+
+  $("document").ready(function(){
+    $("#but4_3").on("click", function(){
+      $("#ul4_3").show(); 
+      $("#text4_2").hide();
+    $("#ul4_1").hide();   
+    })
+  });
+  </script>
 <link
         href = "css-style.css"
         type = "text/css"
@@ -28,7 +54,7 @@ function bluetext(){
     <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-12">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="лого.jpg" height="50px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,10 +124,7 @@ function bluetext(){
 
   <div class="container-fluid foto">
     <div class="row">
-      <div class="col-md-1">
-
-      </div>
-          <div class="col-md-7">
+          <div class="col-md-8 text_foto">
     <h1 class="text-left">Світ очима невербальної дитини</h1>
     <p class="text-muted">Уявіть собі що ви не можете сказати що на сніданок хочете омлет, а не пластівці, що в вас чухається ніс і, що светр кусається...<br>
             Світ Юлі точно інший ніж у звичайної дитини, особливий, сповнений наших здогадок, перемог і невдач.</p>
@@ -115,12 +138,9 @@ function bluetext(){
 
   <div class="container-fluid second-section">
     <div class="row">
-      <div class="col-md-1">
-
-      </div>
-          <div class="col-md-7">
+          <div class="col-md-8">
     <div class="text-uppercase text-primary">Основні послуги</div>
-    <h1 class="text-left">Раннє втручання</h1>
+    <h1 class="text-left mt-3">Раннє втручання</h1>
     <p class="text-muted">Раннє втручання — це послуга для родин, які виховують маля до трьох повних років 
       із порушеннями розвитку або ризиком їх виникнення. Мета послуги — підвищити якість життя родини, підтримати батьків, 
       сприяти розвитку дитини та її соціальній інклюзії.</p>
@@ -134,41 +154,41 @@ function bluetext(){
   <div class="container-fluid third-section">
     <div class="row">
       <div class="col-md-3">
-        <div class="container-jquery rounded-3 position-relative">
-          <div class="text-jquery position-absolute top-50 start-50 translate-middle">
-        <h4>Раннє втручання</h4>
-      <img src="images1.jpg" height="30px">
-      <p class="text-muted">Раннє втручання — це <br>послуга для родин</p>
+        <div class="container-jquery rounded-3 ">
+          <div class="text-jquery">
+            <h4>Раннє втручання</h4><br>
+            <img src="images1.png" height="30px">
+            <p class="text-muted"><br>Раннє втручання — це <br>послуга для родин</p>
     </div>
     </div>
       </div>
 
       <div class="col-md-3">
-        <div class="container-jquery rounded-3 position-relative">
-          <div class="text-jquery position-absolute top-50 start-50 translate-middle">
-        <h4>Раннє втручання</h4>
-      <img src="images1.jpg" height="30px">
-      <p class="text-muted">Раннє втручання — це <br>послуга для родин</p>
+        <div class="container-jquery rounded-3 ">
+          <div class="text-jquery">
+            <h4>Раннє втручання</h4><br>
+            <img src="images1.png" height="30px">
+            <p class="text-muted"><br>Раннє втручання — це <br>послуга для родин</p>
     </div>
     </div>
       </div>
 
       <div class="col-md-3">
-        <div class="container-jquery rounded-3 position-relative">
-          <div class="text-jquery position-absolute top-50 start-50 translate-middle">
-        <h4>Раннє втручання</h4>
-      <img src="images1.jpg" height="30px">
-      <p class="text-muted">Раннє втручання — це <br>послуга для родин</p>
+        <div class="container-jquery rounded-3 ">
+          <div class="text-jquery">
+            <h4>Раннє втручання</h4><br>
+            <img src="images1.png" height="30px">
+            <p class="text-muted"><br>Раннє втручання — це <br>послуга для родин</p>
     </div>
     </div>
       </div>
 
       <div class="col-md-3">
-        <div class="container-jquery rounded-3 position-relative">
-          <div class="text-jquery position-absolute top-50 start-50 translate-middle">
-        <h4>Раннє втручання</h4>
-      <img src="images1.jpg" height="30px">
-      <p class="text-muted">Раннє втручання — це <br>послуга для родин</p>
+        <div class="container-jquery rounded-3 ">
+          <div class="text-jquery">
+        <h4>Раннє втручання</h4><br>
+      <img src="images1.png" height="30px">
+      <p class="text-muted"><br>Раннє втручання — це <br>послуга для родин</p>
     </div>
     </div>
       </div>
@@ -176,6 +196,39 @@ function bluetext(){
   </div>
 </div>
 
+<div class="container-fluid fourth-section">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="text-uppercase text-primary">Що ми робимо</div>
+      <h1 class="text-left mt-3">Орфанний Дзвін</h1>
+    <p class="text-muted">Орфанний Дзвін - це гомадська організація, яка відстоює інтереси пацієнтів з орфанними захворюваннями
+      на місцевому та державному рівні.</p>
+      <button type="button" class="btn btn-primary" id="but4_1">Перелік нозологій</button>
+      <button type="button" class="btn btn-primary" id="but4_2">Наша діяльність</button>
+      <button type="button" class="btn btn-primary" id="but4_3">Наша команда</button>
+      <p id="text4_1">
+        <ul id="ul4_1"><li>Туберозний склероз</li> 
+          <li>легенева гіпертенція</li> 
+          <li>хвороба Гоше</li> 
+          <li>мукополісахаридоз</li> 
+          <li>муковісцидоз</li> 
+          <li>мутація в гені cdkl5</li>
+        </ul>
+        </p>
+      <p id="text4_2">Кожного року в міжнародний день орфанних захворювань Орфанним Дзвоном організовуються круглі столи в ЛОДА.</p>
+      <p id="text4_3">
+        <ul id="ul4_3"><li>Стасів Антоніна</li> 
+          <li>Гладун Ірина</li> 
+          <li>Гулей Андрій</li> 
+          <li>Войтович Марія</li> 
+          <li>Куліш Оксана</li>
+        </ul>
+      </p>
+    </div>
+    <div class="col-md-5 bg-green">
+    </div>
+  </div>
+</div>
 
 <footer>
   <nav class="footer">

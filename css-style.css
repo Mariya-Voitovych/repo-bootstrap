@@ -5,13 +5,15 @@
     height: 500px;
 background-repeat: no-repeat;
 display: flex;
-  align-items: center}
+  align-items: center;
+margin-top: 50px;}
   .second-section{height: 300px;
     display: flex;
-  align-items: center}
-  .third-section{height: 300px;
-    }
-  .container-jquery{
+  align-items: center;
+  margin-left: 80px;}
+  .third-section{height: 350px;
+    margin-left: 80px;}
+  .container-jquery{ padding: 40px 40px;
   width: 300px;
   height: 300px;} 
   .text-jquery{
@@ -32,4 +34,10 @@ padding-left: 300px;}
 .dropdown-menu{display: none;
   position: absolute;}
   .nav-item:hover .dropdown-menu{display: block;}
-
+  .bg-green{background-image: url(bg-green.jpg);}
+  #text4_2{display: none;}
+  #text4_3{display: none;}
+  #ul4_3{display: none;}
+  .fourth-section{margin-left: 80px;}
+  .text_foto{padding-left: 80px;}
+  
